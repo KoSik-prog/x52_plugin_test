@@ -1,0 +1,18 @@
+<root>
+ <leds isReadOnly="false" name="leds">
+  <btn function="PARKING_BRAKE" name="LED_FIRE"/>
+  <btn function="STALL_WARNING" name="LED_FIRE_A"/>
+  <btn function="AP_COURSE_COMBO" name="LED_FIRE_B"/>
+  <btn function="NAV_LIGHTS" name="LED_FIRE_D"/>
+  <btn function="AP_MASTER" name="LED_FIRE_E"/>
+  <btn function="FLAPS" name="LED_TOGGLE_1_2"/>
+  <btn function="TAXI_LIGHTS" name="LED_TOGGLE_3_4"/>
+  <btn function="LANDING_LIGHTS" name="LED_TOGGLE_5_6"/>
+  <btn function="MARKERS" name="LED_POV_2"/>
+  <btn function="BEACON_LIGHTS" name="LED_CLUTCH"/>
+  <btn function="RPM_ENGINE_1" name="LED_THROTTLE"/>
+  <mfd function="SPD" name="0"/>
+  <mfd function="ALT" name="1"/>
+  <mfd function="V/S" name="2"/>
+ </leds>
+</root>
