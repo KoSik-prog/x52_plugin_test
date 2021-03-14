@@ -1,36 +1,18 @@
 <root>
- <leds name="leds" isReadOnly="false">
-	<plane name="default">
-	  <btn function="PARKING_BRAKE" name="LED_FIRE"/>
-	  <btn function="MARKERS" name="LED_FIRE_A"/>
-	  <btn function="LIGHTS_COMBO" name="LED_FIRE_B"/>
-	  <btn function="AP_COURSE_COMBO" name="LED_FIRE_D"/>
-	  <btn function="AP_MASTER" name="LED_FIRE_E"/>
-	  <btn function="FLAPS" name="LED_TOGGLE_1_2"/>
-	  <btn function="TAXI_LIGHTS" name="LED_TOGGLE_3_4"/>
-	  <btn function="LANDING_LIGHTS" name="LED_TOGGLE_5_6"/>
-	  <btn function="STALL_WARNING" name="LED_POV_2"/>
-	  <btn function="AUTOTHROTTLE_LOCK" name="LED_CLUTCH"/>
-	  <btn function="RPM_ENGINE_1" name="LED_THROTTLE"/>
-	   <mfd function="SPD" name="0"/>
-	   <mfd function="ALT" name="1"/>
-	   <mfd function="AP_CRS1" name="2"/>
-	</plane>
-	<plane name="Airbus A320">
-	  <btn function="BRAKES_COMBO" name="LED_FIRE"/>
-	  <btn function="MARKERS" name="LED_FIRE_A"/>
-	  <btn function="BRAKES_COMBO" name="LED_FIRE_B"/>
-	  <btn function="AP_COURSE_COMBO" name="LED_FIRE_D"/>
-	  <btn function="AP_MASTER" name="LED_FIRE_E"/>
-	  <btn function="FLAPS" name="LED_TOGGLE_1_2"/>
-	  <btn function="TAXI_LIGHTS" name="LED_TOGGLE_3_4"/>
-	  <btn function="LANDING_LIGHTS" name="LED_TOGGLE_5_6"/>
-	  <btn function="STALL_WARNING" name="LED_POV_2"/>
-	  <btn function="AUTOTHROTTLE_LOCK" name="LED_CLUTCH"/>
-	  <btn function="RPM_ENGINE_1" name="LED_THROTTLE"/>
-	   <mfd function="SPD" name="0"/>
-	   <mfd function="ALT" name="1"/>
-	   <mfd function="AP_CRS1" name="2"/>
-	</plane>
- </leds>
+ <plane name="default">
+  <btn function="RED" name="LED_FIRE"/>
+  <btn function="GREEN" name="LED_FIRE_A"/>
+  <btn function="ORANGE" name="LED_FIRE_B"/>
+  <btn function="OFF" name="LED_FIRE_D"/>
+  <btn function="OFF" name="LED_FIRE_E"/>
+  <btn function="OFF" name="LED_TOGGLE_1_2"/>
+  <btn function="OFF" name="LED_TOGGLE_3_4"/>
+  <btn function="OFF" name="LED_TOGGLE_5_6"/>
+  <btn function="OFF" name="LED_POV_2"/>
+  <btn function="OFF" name="LED_CLUTCH"/>
+  <btn function="OFF" name="LED_THROTTLE"/>
+  <mfd function="OFF" name="0"/>
+  <mfd function="OFF" name="1"/>
+  <mfd function="OFF" name="2"/>
+ </plane>
 </root>
